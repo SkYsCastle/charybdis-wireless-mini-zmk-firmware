@@ -2,7 +2,7 @@ name: Build and Release ZMK Firmware
 on:
   push:
     branches:
-      - main
+      - v0.3.0
     tags:
       - 'v1.0.1'
   workflow_dispatch:
