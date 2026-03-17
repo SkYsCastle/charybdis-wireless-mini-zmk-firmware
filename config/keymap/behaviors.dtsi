@@ -13,26 +13,39 @@
         //     require-prior-idle-ms = <185>; // like quick-tap-ms however it will apply for any non-modifier key pressed before it
         //     bindings = <&kp>, <&kp>;  // hold, tap
         // };
-    // 左引号：单击=‘  Shift+单击=“
-    left_quote: left_quote {
-      compatible = "zmk,behavior-mod-morph";
-      #binding-cells = <0>;
-      bindings = <&u_left_single>, <&u_left_double>;
-    };
-    // 右引号：单击=’  Shift+单击=”
-    right_quote: right_quote {
-      compatible = "zmk,behavior-mod-morph";
-      #binding-cells = <0>;
-      bindings = <&u_right_single>, <&u_right_double>;
+
+
+
+        u_left_single: u_left_single {
+            compatible = "zmk,behavior-unicode"; 
+            unicode-char = <0x2018>; 
+};
+        u_right_single: u_right_single { 
+            compatible = "zmk,behavior-unicode"; 
+            unicode-char = <0x2019>; 
+};
+        u_left_double: u_left_double { 
+            compatible = "zmk,behavior-unicode"; 
+            unicode-char = <0x201C>; 
+};
+        u_right_double: u_right_double { 
+            compatible = "zmk,behavior-unicode"; 
+            unicode-char = <0x201D>; 
+};
+
+        left_quote: left_quote {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&u_left_single>, <&u_left_double>;
     };
 
-    // 底层Unicode字符定义（无需修改）
-    u_left_single: u_left_single { compatible = "zmk,behavior-unicode"; unicode-char = <0x2018>; };
-    u_right_single: u_right_single { compatible = "zmk,behavior-unicode"; unicode-char = <0x2019>; };
-    u_left_double: u_left_double { compatible = "zmk,behavior-unicode"; unicode-char = <0x201C>; };
-    u_right_double: u_right_double { compatible = "zmk,behavior-unicode"; unicode-char = <0x201D>; };
-  };
-};
+        right_quote: right_quote {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&u_right_single>, <&u_right_double>;
+    };
+
+
         mm_f1: num_or_f1 {
             compatible    = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
