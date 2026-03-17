@@ -62,7 +62,7 @@
         NAV {
             display-name = "Nav";
             bindings = <
-&none    &none &none    &none        &none  &none     &none  &none  &kp UP   &none  &none       
+&none    &none       &none    &none        &none  &none     &none  &none  &kp UP   &none  &none      &none  
 &kp TAB  &kp LGUI        &kp LALT        &kp LSHFT    &kp LCTRL     &kp BACKSPACE        &none         &kp LEFT_ARROW     &kp DOWN      &kp RIGHT_ARROW   &none   &none
 &none    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP &mmv MOVE_RIGHT &none               &none         &kp HOME       &kp END     &kp PG_UP     &kp PG_DN     &none
                                                       &none   &mkp MB4  &mkp MB5               &none   &trans
@@ -74,7 +74,7 @@
             bindings = <
 &kp TILDE  &kp AT  &u_left_single  &u_right_single   &kp AMPS   &kp UNDER        &kp PLUS    &kp AMPS    &kp LBKT  &kp RBKT  &kp PRCNT  &kp BSLH
 &kp GRAVE  &kp HASH  &u_left_double  &u_right_double &kp LS(N6) &kp CARET        &kp KP_MINUS &kp LS(N6)  &kp LPAR  &kp RPAR  &kp ASTRK  &kp PIPE
-&kp DLLR  &home_dir  &kp LT          &kp GT          &kp LS(DASH)  &kp DASH       &kp EQUAL   &kp LS(DASH)  &kp LBRC  &kp RBRC  &kp AT     &kp FSLH
+&kp DLLR  &none  &kp LT          &kp GT          &kp LS(DASH)  &kp DASH       &kp EQUAL   &kp LS(DASH)  &kp LBRC  &kp RBRC  &kp AT     &kp FSLH
                                        &none  &trans     &trans            &trans   &trans
             >;
         };
@@ -94,7 +94,7 @@
             bindings = <
 &studio_unlock   &none          &none          &none           &none           &kp C_BRIGHTNESS_INC    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2       &bt BT_SEL 3  &out OUT_TOG         &bt BT_CLR
 &kp C_SLEEP      &none           &none           &none           &none           &kp C_BRIGHTNESS_DEC    &none         &kp C_PREVIOUS  &kp C_PLAY_PAUSE   &kp C_STOP    &kp C_NEXT           &none
-&kp C_AL_COFFEE   &kp C_AC_UNDO   &kp C_AC_CUT    &kp C_AC_COPY   &kp C_AC_PASTE  &none                   &new_dir      &kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp PRINTSCREEN  &none
+&kp C_AL_COFFEE   &kp C_AC_UNDO   &kp C_AC_CUT    &kp C_AC_COPY   &kp C_AC_PASTE  &none                   &none      &kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp PRINTSCREEN  &none
                                                                                    &none  &none  &none    &none         &none
             >;
         };
