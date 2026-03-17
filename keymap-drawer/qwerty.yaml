@@ -56,7 +56,7 @@ layers:
   - {t: '%', s: F10}
   - ''
   - TAB
-  - '&mkp LGUI'
+  - LGUI
   - LALT
   - LSHFT
   - LCTRL
