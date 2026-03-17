@@ -1,6 +1,33 @@
 / {
     macros {
-        v_split: v_split {
+        
+        LSingle: LSingle {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&u_left_single>;
+        };
+
+        Rsingle: Rsingle {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&u_right_single>;
+        };
+
+        Ldouble: Ldouble {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&u_left_double>;
+        };
+
+        Rdouble: Rdouble {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&u_right_double>;
+        };
+
+
+
+v_split: v_split {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap &kp LC(B) &kp PRCNT>;
