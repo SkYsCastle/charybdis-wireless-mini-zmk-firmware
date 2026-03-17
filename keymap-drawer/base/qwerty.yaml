@@ -129,8 +129,8 @@ layers:
   Sym:
   - '~'
   - '@'
-  - '&u_left_single'
-  - '&u_right_single'
+  - '&l_single'
+  - '&r_single'
   - '&'
   - _
   - +
@@ -141,8 +141,8 @@ layers:
   - \
   - '`'
   - '#'
-  - '&u_left_double'
-  - '&u_right_double'
+  - '&l_double'
+  - '&r_double'
   - Sft+ 6
   - ^
   - '-'
