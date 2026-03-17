@@ -18,35 +18,42 @@
 
         u_left_single: u_left_single {
             compatible = "zmk,behavior-unicode"; 
+            #binding-cells = <0>;
             unicode-char = <0x2018>; 
         };
 
         u_right_single: u_right_single { 
             compatible = "zmk,behavior-unicode"; 
+            #binding-cells = <0>;
             unicode-char = <0x2019>; 
         };
 
         u_left_double: u_left_double { 
             compatible = "zmk,behavior-unicode"; 
+            #binding-cells = <0>;
             unicode-char = <0x201C>; 
         };
 
         u_right_double: u_right_double { 
             compatible = "zmk,behavior-unicode"; 
+            #binding-cells = <0>;
             unicode-char = <0x201D>; 
         };
 
         left_quote: left_quote {
-            compatible = "zmk,behavior-mod-morph";
+           compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&u_left_single>, <&u_left_double>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;  // 按住 Shift 时输出双引号
         };
 
         right_quote: right_quote {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&u_right_single>, <&u_right_double>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;  // 按住 Shift 时输出双引号
         };
+
 
         mm_f1: num_or_f1 {
             compatible    = "zmk,behavior-mod-morph";
