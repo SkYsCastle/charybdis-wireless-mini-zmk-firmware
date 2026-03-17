@@ -1,25 +1,25 @@
 / {
     macros {
         
-        LSingle: LSingle {
+        l_single: l_single {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&u_left_single>;
         };
 
-        Rsingle: Rsingle {
+        r_single: r_single {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&u_right_single>;
         };
 
-        Ldouble: Ldouble {
+       l_double: l_double {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&u_left_double>;
         };
 
-        Rdouble: Rdouble {
+        r_double: r_double {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&u_right_double>;
