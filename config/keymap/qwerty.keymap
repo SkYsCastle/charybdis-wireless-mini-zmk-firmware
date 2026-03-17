@@ -72,8 +72,8 @@
         SYM {
             display-name = "Sym";
             bindings = <
-&kp TILDE    &kp AT      &u_left_single  &u_right_single   &kp AMPS   &kp UNDER        &kp PLUS    &kp AMPS    &kp LBKT  &kp RBKT  &kp PRCNT  &kp BSLH
-&kp GRAVE    &kp HASH    &u_left_double  &u_right_double &kp LS(N6) &kp CARET        &kp KP_MINUS &kp LS(N6)  &kp LPAR  &kp RPAR  &kp ASTRK  &kp PIPE
+&kp TILDE    &kp AT      &l_single  &r_single   &kp AMPS   &kp UNDER        &kp PLUS    &kp AMPS    &kp LBKT  &kp RBKT  &kp PRCNT  &kp BSLH
+&kp GRAVE    &kp HASH    &l_double  &r_double &kp LS(N6) &kp CARET        &kp KP_MINUS &kp LS(N6)  &kp LPAR  &kp RPAR  &kp ASTRK  &kp PIPE
 &kp DLLR    &none        &kp LT  &kp GT  &kp UNDER  &kp MINUS  &kp EQUAL  &kp UNDER  &kp LBRC  &kp RBRC  &kp AT  &kp FSLH
 
                                        &none  &trans     &trans            &trans   &trans
