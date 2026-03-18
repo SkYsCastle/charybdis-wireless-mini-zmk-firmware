@@ -53,7 +53,7 @@
             display-name = "Num";
             bindings = <
 &none   &none  &none   &none  &none          &none            &kp PLUS     &mm_f7             &mm_f8             &mm_f9             &mm_f10            &none
-&kp TAB  &kp LGUI  &kp LALT &kp LSHFT &kp LCTRL  &kp BACKSPACE  &kp KP_MINUS &mm_f4             &mm_f5             &mm_f6             &mm_f11            &none
+&kp TAB  &kp LGUI  &kp LALT &kp LSHFT &kp LCTRL  &kp BACKSPACE  &kp KP_MINUS &mm_f4             &mm_f5             &mm_f6             &mm_f11             &kp X
 &none    &none  &kp X  &none  &none          &kp DEL            &kp EQUAL    &mm_f1             &mm_f2             &mm_f3             &mm_f12            &kp KP_SLASH
                        &none  &none          &trans           &kp N0     &kp SPACE
             >;
@@ -62,10 +62,9 @@
         NAV {
             display-name = "Nav";
             bindings = <
-&none    &none       &none    &none        &none  &none     &none  &none  &kp UP   &none  &none      &none  
-&kp TAB  &kp LGUI        &kp LALT        &kp LSHFT    &kp LCTRL     &kp BACKSPACE        &none         &kp LEFT_ARROW     &kp DOWN      &kp RIGHT_ARROW   &none   &none
-&none    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP &mmv MOVE_RIGHT &none               &none         &kp HOME       &kp END     &kp PG_UP     &kp PG_DN     &none
-                                                      &none   &mkp MB4  &mkp MB5               &none   &trans
+&none      &none      &mmv MOVE_UP    &none        &none              &none     &none  &none  &kp UP   &none  &none      &none  
+&kp TAB    &none      &mmv MOVE_LEFT  &mmv MOVE_DOWN &mmv MOVE_RIGHT  &kp BACKSPACE       &none         &kp LEFT_ARROW     &kp DOWN      &kp RIGHT_ARROW   &none   &none
+&none      &kp LGUI   &kp LALT        &kp LSHFT   	 &kp LCTRL		  &kp DEL          &none         &kp HOME       &kp END     &kp PG_UP     &kp PG_DN     &none                                                      &none   &mkp MB4  &mkp MB5               &none   &trans
             >;
         };
 
@@ -73,8 +72,8 @@
             display-name = "Sym";
             bindings = <
 &kp TILDE    &kp AT      &kp SQT          &kp SQT      &kp AMPS   &kp UNDER        &kp PLUS    &kp AMPS    &kp LBKT  &kp RBKT  &kp PRCNT  &kp BSLH
-&kp GRAVE    &kp HASH    &kp LS(SQT)      &kp LS(SQT)  &kp LS(N6) &kp CARET        &kp KP_MINUS &kp LS(N6)  &kp LPAR  &kp RPAR  &kp ASTRK  &kp PIPE
-&kp DLLR    &none        &kp LT           &kp GT       &kp UNDER  &kp MINUS  &kp EQUAL  &kp UNDER  &kp LBRC  &kp RBRC  &kp AT  &kp FSLH
+&kp GRAVE    &kp HASH    &kp LS(SQT)      &kp LS(SQT)  &kp LS(N6) &kp UNDER        &kp KP_MINUS &kp LS(N6)  &kp LPAR  &kp RPAR  &kp ASTRK  &kp PIPE
+&kp DLLR    &none        &kp LT           &kp GT       &kp CARET  &kp MINUS  &kp EQUAL  &kp UNDER  &kp LBRC  &kp RBRC  &kp AT  &kp FSLH
 
                                        &none  &trans     &trans            &trans   &trans
             >;
