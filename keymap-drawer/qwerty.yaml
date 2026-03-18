@@ -66,7 +66,7 @@ layers:
   - {t: '5', s: F5}
   - {t: '6', s: F6}
   - {t: '*', s: F11}
-  - ''
+  - X
   - ''
   - ''
   - X
@@ -87,7 +87,7 @@ layers:
   Nav:
   - ''
   - ''
-  - ''
+  - MOVE UP
   - ''
   - ''
   - ''
@@ -98,10 +98,10 @@ layers:
   - ''
   - ''
   - TAB
-  - LGUI
-  - LALT
-  - LSHFT
-  - LCTRL
+  - ''
+  - MOVE L
+  - MOVE D
+  - MOVE R
   - BACK SPACE
   - ''
   - LEFT
@@ -110,11 +110,11 @@ layers:
   - ''
   - ''
   - ''
-  - MOVE L
-  - MOVE D
-  - MOVE UP
-  - MOVE R
-  - ''
+  - LGUI
+  - LALT
+  - LSHFT
+  - LCTRL
+  - DEL
   - ''
   - HOME
   - END
@@ -144,7 +144,7 @@ layers:
   - Sft+ '
   - Sft+ '
   - Sft+ 6
-  - ^
+  - _
   - '-'
   - Sft+ 6
   - (
@@ -155,7 +155,7 @@ layers:
   - ''
   - <
   - '>'
-  - _
+  - ^
   - '-'
   - '='
   - _
