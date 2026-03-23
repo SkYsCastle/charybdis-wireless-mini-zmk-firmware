@@ -78,7 +78,7 @@ layers:
   - {t: '2', s: F2}
   - {t: '3', s: F3}
   - {t: ., s: F12}
-  - KP EQUAL
+  - '='
   - ''
   - ''
   - {t: ▽, type: trans}
