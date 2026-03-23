@@ -54,7 +54,7 @@
              bindings = <
 &none    &none     &none     &none      &none     &none          &kp PRCNT      &mm_f7             &mm_f8             &mm_f9             &mm_f10            &kp KP_PLUS
 &kp TAB  &kp LGUI  &kp LALT  &kp LSHFT &kp LCTRL  &kp BACKSPACE  &kp KP_DIVIDE  &mm_f4             &mm_f5             &mm_f6             &mm_f11            &kp KP_MULTIPLY
-&none    &none     &kp X     &none     &none      &kp DEL        &kp N0         &mm_f1             &mm_f2             &mm_f3             &mm_f12            &kp KP_EQUAL
+&none    &none     &kp X     &none     &none      &kp DEL        &kp N0         &mm_f1             &mm_f2             &mm_f3             &mm_f12            &kp EQUAL
                           &none        &none      &trans         &trans         &kp KP_DOT
             >;
         };
