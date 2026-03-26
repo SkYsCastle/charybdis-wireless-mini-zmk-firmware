@@ -1,5 +1,5 @@
 /* upstream bindings and behaviors */
-
+//这个文件只是用来给keymapedtior验证，不参与实际的设置和固件生成。
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
