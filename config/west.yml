@@ -4,7 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
 
     - name: 280Zo
-      url-base: https://github.com/280Zo
+      url-base: https://github.com/DoctorWangWang
+      ##https://github.com/280Zo
 
   projects:
     - name: zmk
