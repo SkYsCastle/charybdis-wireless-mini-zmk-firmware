@@ -78,24 +78,24 @@
             mods          = <MOD_LSFT>;
         };
 
-        mm_f10: min_or_f10 {
+        mm_f11: min_or_f11 {
             compatible    = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings      = <&kp KP_MINUS>, <&kp F10>;
+            bindings      = <&kp &kp KP_MULTIPLY>, <&kp F11>;
             mods          = <MOD_LSFT>;
         };
 
-        mm_f11: slash_or_f11 {
+        mm_f10: slash_or_f10 {
             compatible    = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings      = <&kp KP_SLASH>, <&kp F11>;
+            bindings      = <&kp KP_SLASH>, <&kp F10>;
             mods          = <MOD_LSFT>;
         };
 
-        mm_f12: dot_or_f12 {
+        mm_f12: zero_or_f12 {
             compatible    = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings      = <&kp DOT>, <&kp F12>;
+            bindings      = <&kp N0>, <&kp F12>;
             mods          = <MOD_LSFT>;
         };
 
