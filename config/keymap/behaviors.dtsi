@@ -81,7 +81,7 @@
         mm_f11: min_or_f11 {
             compatible    = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings      = <&kp &kp KP_MULTIPLY>, <&kp F11>;
+            bindings      = <&kp KP_MULTIPLY>, <&kp F11>;
             mods          = <MOD_LSFT>;
         };
 
