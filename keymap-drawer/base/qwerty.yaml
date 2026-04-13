@@ -65,7 +65,7 @@ layers:
   - {t: '4', s: F4}
   - {t: '5', s: F5}
   - {t: '6', s: F6}
-  - {s: KP MULTIPLY}
+  - {t: KP MULTIPLY, s: F11}
   - KP PLUS
   - ''
   - ''
